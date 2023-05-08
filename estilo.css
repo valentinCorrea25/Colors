@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  transition: background-color 0.9s ease;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor2 {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.boton{
+  margin: 25px;
+}
+.botonCrear{
+	width: 400px;
+	margin-left: 10px;
+}
+.rojo{
+	position: absolute;
+	top: 330px;
+  	left: 513px;
+}
+.verde{
+	position: absolute;
+	top: 330px;
+  	left: 843px;
+}
+.azul{
+	position: absolute;
+	top: 330px;
+  	left: 678px;
+}
+
+.valorActual{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 20px;
+  
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.botonCopiar{
+	margin-top: 20px;
+	background-color: #fff;
+	padding: 20px;
+	margin-left: 38%;
+  
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+.descripciones{
+	margin: 30px;
+}
